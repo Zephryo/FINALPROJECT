@@ -1,0 +1,165 @@
+/* Import Dancing Script Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Default font */
+    background-color: #f4f4f4;
+    padding: 0;
+}
+
+/* Main Header */
+.main-header {
+    background-color: #4B2E2E;
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+/* Cursive font for Main Header */
+.main-header h1 {
+    font-family: 'Dancing Script', cursive; /* Apply Dancing Script font to main header */
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-menu a:hover {
+    color: #FFDAB9;
+}
+
+/* Section Header Cursive */
+h2, h3, h4 {
+    font-family: 'Dancing Script', cursive; /* Dancing Script font for all section headers */
+    font-weight: bold; /* Make headers bold */
+    text-align: center; /* Ensure header text is centered */
+    margin: 20px 0;
+}
+
+/* Make all headers bigger */
+h1 {
+    font-size: 3.5rem; /* Larger font size for h1 */
+}
+
+h2 {
+    font-size: 2.5rem; /* Larger font size for h2 */
+}
+
+h3 {
+    font-size: 2rem; /* Larger font size for h3 */
+}
+
+h4 {
+    font-size: 1.8rem; /* Larger font size for h4 */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #F8EDE3; /* Soft cream background for the hero section */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Dancing Script', cursive; /* Cursive font */
+    font-size: 3rem; /* Larger font size */
+    color: #4B2E2E; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: justify; /* Justify the text */
+    max-width: 800px; /* Optional: limits the width for better readability */
+    margin-left: auto;
+    margin-right: auto;
+    text-align-last: center; /* Ensures the last line is centered */
+}
+
+/* Bridal Package Section */
+#bridal-package {
+    padding: 50px 20px;
+    background-color: #F8EDE3; /* Soft cream */
+}
+
+#bridal-package h2 {
+    font-size: 2.5rem;
+}
+
+/* Cards Grid Layout */
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.service-cards .card {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect on service cards */
+.service-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background-color: #FFDAB9;
+}
+
+.service-cards .card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.service-cards .card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #4B2E2E;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #FFDAB9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
